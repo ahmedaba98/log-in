@@ -1,0 +1,73 @@
+/* From uiverse.io by @alexruix */
+
+* {
+    font-family: "Tajawal", sans-serif;
+}
+
+.sup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.input {
+    margin: 1rem;
+    line-height: 28px;
+    border: 2px solid lightblue;
+    border-bottom-color: lightblue;
+    padding: .2rem 0;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: large;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+}
+
+.input::placeholder {
+    color: #777;
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.sup .check .cho {
+    color: #fff;
+}
+
+.sup .check {
+    background-color: #7777776f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sup .check .cho {
+    margin: 1rem;
+    line-height: 28px;
+    /* border: 1px solid lightblue; */
+    /* border-bottom-color: lightblue; */
+    color: #fff;
+    font-size: 1.2rem;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.sup .check .op {
+    background-color: rgb(122, 173, 190);
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid #7a9cc6;
+}
